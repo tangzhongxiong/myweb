@@ -1,0 +1,37 @@
+.tree-list{
+    .treelist-item{
+        list-style: none;
+        cursor: pointer;
+
+        .treelist-row{
+            display: flex;
+            color: #adb3b8;
+
+            .item-icon{
+                font-size: 18px;
+                width: 44px;
+                text-align: center;
+            }
+            .treelist-item-text{
+                line-height: 50px;
+                color: #adb3b8;
+                font-size: 14px;
+                margin-left: 50px;
+                margin-right: 24px;
+            }
+        }
+
+        .row-li{
+            list-style: none;
+            cursor: pointer;
+
+            .treelist-row{
+                .treelist-item-text{
+                    line-height: 50px;
+                    color: #adb3b8;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
